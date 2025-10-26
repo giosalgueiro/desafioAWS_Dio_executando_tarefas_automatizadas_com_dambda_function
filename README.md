@@ -1,6 +1,10 @@
 # desafioAWS_Dio_executando_tarefas_automatizadas_com_dambda_function
 Este laboratório tem como objetivo de consolidar meus conhecimentos em tarefas automatizadas com Lambda Function e S3.
 
+# Objetivo 
+Este projeto implementa uma arquitetura serverless para o processamento automatizado de notas fiscais, utilizando serviços essenciais da AWS. O objetivo principal é criar um pipeline eficiente e escalável onde um arquivo de nota fiscal (em formato JSON) é carregado no Amazon S3, acionando automaticamente uma AWS Lambda Function. A função Lambda é responsável por ler, validar e extrair os dados relevantes, persistindo-os no banco de dados Amazon DynamoDB para consultas e análises. O API Gateway (opcional) fornece um endpoint seguro para que aplicações externas acessem esses dados processados. O serviço IAM garante o controle de acesso e as permissões de segurança em todo o fluxo de trabalho.
+
+
 # Lambda Function
 AWS Lambda é um serviço de computação serverless da Amazon Web Services (AWS) que permite executar código sem precisar provisionar ou gerenciar servidores.
 
